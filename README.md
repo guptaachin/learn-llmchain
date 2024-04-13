@@ -1,4 +1,4 @@
-# Stable first steps for LLMs
+# Stable first steps towards LLMs
 
 ## Description
 
