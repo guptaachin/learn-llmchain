@@ -34,25 +34,25 @@ These instructions will get you a copy of the project up and running on your loc
    cd learn-llmchain
    ```
 
-3. Run the setup script:
+3. Run the `run.sh` script:
 
    - On Linux:
 
      ```bash
-     ./setup.sh
+     ./run.sh
      ```
 
    - On Windows (using Git Bash or similar):
 
      ```bash
-     bash setup.sh
+     bash run.sh
      ```
 
 4. Follow the on-screen instructions to install Pipenv if it's not already installed.
 
 ### Usage
 
-1. After running the setup script, activate the virtual environment:
+1. After running the `run` script, activate the virtual environment:
 
    ```bash
    pipenv shell
