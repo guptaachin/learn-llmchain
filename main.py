@@ -18,7 +18,7 @@ args = parser.parse_args()
 repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
 llm = HuggingFaceEndpoint(repo_id=repo_id, 
                           temperature=0.01, 
-                          max_new_tokens=20)
+                          max_new_tokens=50)
 
 # build prompt using Initializer
 describe_prompt = PromptTemplate(
