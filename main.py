@@ -22,7 +22,7 @@ llm = HuggingFaceEndpoint(repo_id=repo_id,
 
 # build prompt using Initializer
 describe_prompt = PromptTemplate(
-    template="Describe {topic} in {length} words",
+    template="Describe {topic} in one line and {length} words.",
     input_variables=["topic", "length"]
 )
 
