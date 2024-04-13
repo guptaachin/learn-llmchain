@@ -4,15 +4,6 @@
 activate_virtualenv() {
     echo "Activating virtual environment..."
     pipenv shell
-
-    # Additional instructions for the user
-    echo "✅ You are all set."
-    echo "🔑 Create a Hugging Face API token."
-    echo "   You can create one at: https://huggingface.co/join"
-    echo "💼 Create a .env file in the current directory."
-    echo "   Add your Hugging Face API token to the .env file as HUGGINGFACE_TOKEN=your_token_here"
-    echo "🚀 Run your Python application using:"
-    echo "   python main.py"
 }
 
 # Check if Pipenv is installed
