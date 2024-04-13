@@ -67,7 +67,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Run your Python application using:
 
   ```bash
-  python main.py --topic life --num 5
+  python main.py --topic life --length 5
   ```
 
 ## License

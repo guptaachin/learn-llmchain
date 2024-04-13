@@ -10,7 +10,7 @@ load_dotenv()
 # accept command line arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--topic", default="life")
-parser.add_argument("--num", default="4")
+parser.add_argument("--length", default="4")
 
 args = parser.parse_args()
 
@@ -22,8 +22,8 @@ llm = HuggingFaceEndpoint(repo_id=repo_id,
 
 # build prompt using Initializer
 describe_prompt = PromptTemplate(
-    template="Describe {topic} in {num} words",
-    input_variables=["topic", "num"]
+    template="Describe {topic} in {length} words",
+    input_variables=["topic", "length"]
 )
 
 # combine llm and prompt into a chain
@@ -34,7 +34,7 @@ describe_chain = LLMChain(
 
 # get answer
 answer = describe_chain.invoke({"topic": args.topic, 
-                                "num": args.num })
+                                "length": args.length})
 
 # print answer
 print(answer["text"])
