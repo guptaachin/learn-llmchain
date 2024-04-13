@@ -1,9 +1,15 @@
 # Stable first steps for LLMs
-> 
 
 ## Description
 
-Briefly describe your project here.
+This repository contains the source code for getting started with LLMs. The project is developed in Python and leverages advanced language models to generate descriptive text based on user-defined topics and word counts.
+
+## Features
+
+- Generate descriptive text on any topic within a specified word count.
+- Utilize pre-trained language models from the Hugging Face model hub.
+- Accept command-line arguments for topic selection and word count customization.
+- Easily customize prompts and language model configurations for specialized use cases.
 
 ## Getting Started
 
@@ -70,6 +76,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## References
 
-- (Langchain-docs)[https://api.python.langchain.com/en/latest/langchain_api_reference.html]
-- (https://huggingface.co/)[HuggingFace]
+- [Langchain-docs](https://api.python.langchain.com/en/latest/langchain_api_reference.html)
+- [Hugging Face](https://huggingface.co/)
 
